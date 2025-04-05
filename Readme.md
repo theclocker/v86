@@ -1,3 +1,17 @@
+# Alpine tools
+To build the alpine image:
+```
+cd tools/docker/alpine
+./build.sh
+```
+The output will be available at the images folder (ignored by git)
+
+## For the bios files
+look under the `/bios` folder, if the `.bios` files are not there, run the `fetch_and_build_seabios.sh` script
+
+
+
+# Original README.md
 [![Join the chat at https://gitter.im/copy/v86](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/copy/v86) or #v86 on [irc.libera.chat](https://libera.chat/)
 
 v86 emulates an x86-compatible CPU and hardware. Machine code is translated to
